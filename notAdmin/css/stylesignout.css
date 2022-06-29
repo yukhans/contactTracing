@@ -1,0 +1,114 @@
+body {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  direction: ltr;
+}
+
+.container1 {
+  background-color: #ffffff2e;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.login_id {
+  padding-top: 0px;
+  font-size: 23px;
+  display: inline;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 0;
+}
+
+.input-group-addon {
+  border-color: #e5e5e5;
+  background: #e5e5e5;
+  min-width: 39px;
+  border-right: 0;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: table-cell;
+  box-sizing: border-box;
+  border-collapse: separate;
+  direction: ltr;
+}
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+}
+
+#ID {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  display: table-cell;
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 90%;
+  margin-bottom: 0;
+  border: 1px solid #cbcbcb;
+  border-radius: 4px;
+  border-collapse: separate;
+  height: 25px;
+  padding: 6px 12px;
+}
+
+.enter {
+  color: #fff;
+  background-color: #0e3c00;
+  margin-right: 5px;
+  border-width: 0;
+  padding: 7px 14px;
+  font-size: 14px;
+  outline: none !important;
+  background-image: none !important;
+  filter: none;
+  box-shadow: none;
+  text-shadow: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-left: 215px;
+  margin-top: 1em;
+}
+
+.enter:hover {
+  background-color: green;
+}

@@ -1,0 +1,123 @@
+body {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  direction: ltr;
+}
+
+.container {
+  background-color: #ffffff2e;
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+form {
+  width: 100%;
+  align-items: center;
+  margin-right: auto;
+}
+
+input {
+  border-color: #e5e5e5;
+  background: #ffffff;
+  min-width: 39px;
+  border-right: 0;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90%;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: table-cell;
+  box-sizing: border-box;
+  border-collapse: separate;
+  direction: ltr;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+label {
+  color: rgb(58, 54, 54);
+  font-weight: 1000;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+a {
+  text-shadow: none;
+  text-decoration: none;
+  color: green;
+  color: #fff;
+  background-color: #0e3c00;
+  margin-right: 5px;
+  border-width: 0;
+  padding: 7px 14px;
+  font-size: 14px;
+  outline: none !important;
+  background-image: none !important;
+  filter: none;
+  box-shadow: none;
+  text-shadow: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-top: 1em;
+  margin-bottom: 30px;
+}
+
+a:hover {
+  background-color: green;
+}
+.submit-button {
+  color: #fff;
+  background-color: #0e3c00;
+  margin-right: 5px;
+  border-width: 0;
+  padding: 7px 14px;
+  font-size: 14px;
+  outline: none !important;
+  background-image: none !important;
+  filter: none;
+  box-shadow: none;
+  text-shadow: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-left: 487px;
+  margin-top: 1em;
+  margin-bottom: 30px;
+}
+
+.submit-button:hover {
+  background-color: green;
+}
